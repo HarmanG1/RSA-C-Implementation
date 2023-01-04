@@ -1,6 +1,36 @@
-# Assignment 4
+# Implementation of RSA in C
 
-The files all implement different aspects of rsa in c
+Implementation of RSA encryption algorithm using the GNU multiple precision arithmetic library.
+
+# Building
+
+Run the following to build the 'keygen', 'encrypt' and 'decrypt' executables
+
+```
+make
+```
+
+In order to build them separately, you can append either 'keygen', 'encrypt', or 'decrypt'.
+
+Run the following to delete executables and objects
+```
+make clean
+```
+
+# Running Keygen
+```
+./keygen
+```
+
+# Running Encrypt
+```
+./encrypt
+```
+
+# Running Decrypt
+```
+./decrypt
+```
 
 ## Files
 
@@ -51,13 +81,3 @@ This contains the implementation of the RSA library. / This specifies the interf
 ### Makefile
 
 Makefile contains the commands to complie and clean
-
-### DESIGN.pdf
-
-This file has the infromation regarding the design of the code with supporting psuedocode 
-
-### WRITEUP.pdf
-
-This file contains explanation of the testing process
-
-
